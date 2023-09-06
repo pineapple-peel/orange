@@ -3,7 +3,7 @@
   <head>
     <title>My Website</title>
   </head>
-  <body>
+  <body onload="loadPage()">
     <header>
       <h1>Welcome to My Website</h1>
       <nav>
@@ -23,5 +23,10 @@
     <footer>
       <p>&copy; 2023 My Website. All rights reserved.</p>
     </footer>
+    <script>
+      function loadPage() {
+        // Add your code here to load the website on render
+      }
+    </script>
   </body>
 </html>
